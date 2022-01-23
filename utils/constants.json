@@ -1,0 +1,11 @@
+{
+    "rpc_url": "https://rinkeby.infura.io/v3/bffff2e6374141ccba308ca2356eadc8",
+    "tokenAddr": "0x1d2fa695b58c0778144c99b5c4e8cd029608bcdd",
+    "admin":{
+        "publicKey": "0x70B570609Fa0eBD2C8af9515504E1d1884081ef9",
+        "privateKey": "0x31fd7ca64d288601a03d7ce693f552d33b35a2e29d419720403b23487cd7b526"
+    },
+    "BatchSize": 50,
+    "WithdrawServiceInterval": 2000,
+    "massivePerBlock": true
+}
