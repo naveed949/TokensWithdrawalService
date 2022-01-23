@@ -10,11 +10,7 @@ async function handle(txs, batchSize) {
     var contract = new web3.eth.Contract(abi, tokenAddr) 
     var nonce = await web3.eth.getTransactionCount(admin.publicKey)
     // var startBlock = await web3.eth.getBlock("latest");
-    if (txs > parseInt(txs)){
-        txs = parseInt(txs) +1;
-    } else {
-        txs = parseInt(txs)
-    }
+    
     let promises = [];
     let promise;
     for (let i = 0; i < txs; i++) {

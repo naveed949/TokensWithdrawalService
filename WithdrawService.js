@@ -17,6 +17,11 @@ async function handleWithdraws() {
         if(pending > 0){
             console.log(`Found #${pending} pending withdrawals!!!`)
             let txs = pending / BatchSize;
+            if (txs > parseInt(txs)){
+                txs = parseInt(txs) +1;
+            } else {
+                txs = parseInt(txs)
+            }
             console.log("Sending #"+txs+" transactions")
             if (massivePerBlock)
                 await handle(txs, BatchSize);

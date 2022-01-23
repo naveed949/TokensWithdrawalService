@@ -52,7 +52,7 @@ This technique is making sure to avoid `nonce` collision and thus if due to any 
 Implementaion of this technique can be found at **`MultipleTxsPerBlock.js`** file.
 
 ## Example
-Given below is the log of withdraw service using 2nd technique with **`BatchSize: 50`** has processed **1000 transactions.**
+Given below is the log of withdraw service using 2nd technique with **`BatchSize: 50`** has processed **1000 transactions.** over Rinkeby Testnet. [smartcontract link](https://rinkeby.etherscan.io/address/0x1d2fa695b58c0778144c99b5c4e8cd029608bcdd)
 ```code
 Withdrawal service started!!!
 Checking WITHDRAWALS!!!
