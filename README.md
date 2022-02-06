@@ -1,5 +1,5 @@
 # Tokens Withdrawal Service
-This is an NodeJS backend service responsible of processing withdraw requests, received through Token smartcontract
+This is an NodeJS backend service responsible of processing withdraw requests, received through Token smartcontract dealing with `nonce` issue.
 
 # Deployment
 To deploy & run withdraw service please following steps mentioned below
